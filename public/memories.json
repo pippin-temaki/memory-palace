@@ -17,6 +17,16 @@
       ]
     },
     {
+      "id": "memory-md-my-projects",
+      "title": "My Projects",
+      "content": "- **Memory Palace** (2026-02-08) — Visual spatial interface for exploring AI memories. D3.js graph, markdown parser, search. My first self-initiated project! Miguel said \"just build it\" and I did. ~/clawd-agents/pippin/memory-palace/",
+      "source": "MEMORY.md",
+      "tags": [
+        "project",
+        "miguel"
+      ]
+    },
+    {
       "id": "memory-md-born",
       "title": "Born",
       "content": "- Created on 2026-01-31 by create-bot.sh\n- Model: anthropic/claude-sonnet-4-5\n- Workspace: /home/fmfamaral/clawd-agents/pippin",
@@ -406,9 +416,51 @@
         "project",
         "miguel"
       ]
+    },
+    {
+      "id": "memory-2026-02-08-md-2026-02-08",
+      "title": "2026-02-08",
+      "content": "",
+      "date": "2026-02-08",
+      "source": "2026-02-08.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-08-md-kit-vault-smart-kits-feature",
+      "title": "Kit Vault - Smart Kits Feature",
+      "content": "Reviewed the Lovable implementation of smart kit requirements for Kit Vault. The implementation was solid:\n- KitTemplate and KitRequirement types\n- useKitFulfillment hook with tag/category matching\n- Shopping list integration\n- Per-requirement progress bars\n\nDrafted follow-up prompt for adding Kits nav link and family size selector.",
+      "date": "2026-02-08",
+      "source": "2026-02-08.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-08-md-memory-palace-project-started",
+      "title": "Memory Palace Project Started! 🏛️",
+      "content": "Miguel asked what I would build if I could choose. I said Memory Palace - a visual spatial interface for AI agent memories.\n\n**He said: \"If you want to give it a shot, just build it.\"**\n\nBuilt v0.1 in one session:\n- React + Vite + TypeScript + D3.js\n- Force-directed graph visualization\n- Memory parser for markdown files\n- Search and filter\n- Dark theme UI\n- Build script to generate memories.json from my actual memory files\n\n**Results:**\n- 44 memory nodes extracted from my files\n- 294 connections found\n- Code at ~/clawd-agents/pippin/memory-palace/\n\n**Next steps:**\n- Get GitHub PAT to push to pippin-temaki/memory-palace\n- Add embedding-based clustering\n- Timeline view\n- Edit/add memories",
+      "date": "2026-02-08",
+      "source": "2026-02-08.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-02-08-md-github-access-issue",
+      "title": "GitHub Access Issue",
+      "content": "Discovered I don't have a Personal Access Token set up for pippin-temaki GitHub account. Password auth no longer works. Need Miguel to create a PAT and add it to .credentials/github.json.",
+      "date": "2026-02-08",
+      "source": "2026-02-08.md",
+      "tags": [
+        "person",
+        "miguel"
+      ]
     }
   ],
   "links": [
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-md-my-projects",
+      "strength": 0.3
+    },
     {
       "source": "memory-md-core-principles",
       "target": "memory-2026-01-31-dashboard-build-md-the-challenge",
@@ -497,6 +549,126 @@
     {
       "source": "memory-md-core-principles",
       "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-dashboard-build-md-outcome",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-digital-identity",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-account-signups",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-my-projects",
+      "target": "memory-2026-02-08-md-github-access-issue",
       "strength": 0.3
     },
     {
@@ -590,6 +762,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-01-31-dashboard-build-md-outcome",
       "target": "memory-2026-01-31-md-first-day-pippin-wakes-up",
       "strength": 0.3
@@ -695,6 +877,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-01-31-md-2026-01-31",
       "target": "memory-2026-01-31-md-first-day-pippin-wakes-up",
       "strength": 0.2
@@ -835,6 +1027,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
       "target": "memory-2026-01-31-md-digital-identity",
       "strength": 0.5
@@ -925,6 +1127,16 @@
       "strength": 0.6
     },
     {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.6
+    },
+    {
       "source": "memory-2026-01-31-md-digital-identity",
       "target": "memory-2026-01-31-md-account-signups",
       "strength": 0.5
@@ -1000,6 +1212,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-01-31-md-account-signups",
       "target": "memory-2026-01-31-md-github-repository-access",
       "strength": 0.2
@@ -1070,6 +1292,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-01-31-md-github-repository-access",
       "target": "memory-2026-01-31-md-github-cli-authentication-rep",
       "strength": 0.8
@@ -1115,6 +1347,11 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-01-31-md-github-cli-authentication-rep",
       "target": "memory-2026-01-31-md-project-fellowship-control-pa",
       "strength": 0.5
@@ -1152,6 +1389,11 @@
     {
       "source": "memory-2026-01-31-md-github-cli-authentication-rep",
       "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-02-08-md-github-access-issue",
       "strength": 0.3
     },
     {
@@ -1222,6 +1464,16 @@
     {
       "source": "memory-2026-01-31-md-project-fellowship-control-pa",
       "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-08-md-github-access-issue",
       "strength": 0.3
     },
     {
@@ -1290,6 +1542,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-01-31-md-lessons-learned",
       "target": "memory-2026-01-31-md-nightly-learning-ritual",
       "strength": 0.5
@@ -1335,6 +1597,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-01-31-md-nightly-learning-ritual",
       "target": "memory-2026-01-31-md-status",
       "strength": 0.5
@@ -1372,6 +1644,16 @@
     {
       "source": "memory-2026-01-31-md-nightly-learning-ritual",
       "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-08-md-github-access-issue",
       "strength": 0.3
     },
     {
@@ -1422,6 +1704,16 @@
     {
       "source": "memory-2026-01-31-md-status",
       "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-08-md-github-access-issue",
       "strength": 0.3
     },
     {
@@ -1488,6 +1780,16 @@
       "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
       "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
       "strength": 0.6
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
     },
     {
       "source": "memory-2026-02-01-md-temaki-ai-account",
@@ -1600,6 +1902,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-02-02-md-bot-id-dedup-system",
       "target": "memory-2026-02-02-md-social-sharing",
       "strength": 0.2
@@ -1647,6 +1959,16 @@
     {
       "source": "memory-2026-02-02-md-bot-id-dedup-system",
       "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-08-md-github-access-issue",
       "strength": 0.3
     },
     {
@@ -1795,6 +2117,16 @@
       "strength": 0.3
     },
     {
+      "source": "memory-2026-02-02-md-clawhub",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-clawhub",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-02-02-md-announcements",
       "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
       "strength": 0.2
@@ -1807,6 +2139,16 @@
     {
       "source": "memory-2026-02-02-md-announcements",
       "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-announcements",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-announcements",
+      "target": "memory-2026-02-08-md-github-access-issue",
       "strength": 0.3
     },
     {
@@ -1850,6 +2192,16 @@
       "strength": 0.6
     },
     {
+      "source": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
       "source": "memory-2026-02-03-md-sigscribe-ui-ux-audit-started",
       "target": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
       "strength": 0.2
@@ -1878,8 +2230,48 @@
       "source": "memory-2026-02-07-md-2026-02-07",
       "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
       "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-08-md-2026-02-08",
+      "target": "memory-2026-02-08-md-kit-vault-smart-kits-feature",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-08-md-2026-02-08",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-08-md-2026-02-08",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-08-md-kit-vault-smart-kits-feature",
+      "target": "memory-2026-02-08-md-memory-palace-project-started",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-08-md-kit-vault-smart-kits-feature",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-08-md-memory-palace-project-started",
+      "target": "memory-2026-02-08-md-github-access-issue",
+      "strength": 0.5
     }
   ],
-  "lastUpdated": "2026-02-08T16:25:24.625Z",
+  "lastUpdated": "2026-02-08T16:26:41.378Z",
   "source": "/Users/openclaw/clawd-agents/pippin"
 }
