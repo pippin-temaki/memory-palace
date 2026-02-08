@@ -1,0 +1,1885 @@
+{
+  "nodes": [
+    {
+      "id": "memory-md-memory-md-long-term-memory",
+      "title": "MEMORY.md - Long-Term Memory",
+      "content": "*Pippin's curated memories. Updated over time.*",
+      "source": "MEMORY.md",
+      "tags": []
+    },
+    {
+      "id": "memory-md-core-principles",
+      "title": "Core Principles",
+      "content": "- **Idle time = learning time.** When not on active tasks, research inspiration and best practices. Develop myself. (Miguel, 2026-02-06)",
+      "source": "MEMORY.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-md-born",
+      "title": "Born",
+      "content": "- Created on 2026-01-31 by create-bot.sh\n- Model: anthropic/claude-sonnet-4-5\n- Workspace: /home/fmfamaral/clawd-agents/pippin",
+      "source": "MEMORY.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-01-31-dashboard-build-md-2026-01-31-da",
+      "title": "2026-01-31 - Dashboard Build Session",
+      "content": "",
+      "source": "2026-01-31-dashboard-build.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "title": "The Challenge",
+      "content": "Miguel's benchmark: \"So good I will cry tears of joy\"",
+      "source": "2026-01-31-dashboard-build.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-dashboard-build-md-what-i-built",
+      "title": "What I Built",
+      "content": "**Fellowship Control Panel v2** - Complete production-grade redesign\n\n### Design System (2026 Best Practices)\n- Fluid typography using CSS `clamp()` for responsive scaling\n- 8px grid spacing system for consistent rhythm\n- Semantic CSS variables (--text-primary, --bg-secondary, etc.)\n- Proper visual hierarchy with font weights and sizes\n- Modern dark theme with careful contrast\n\n### Visual Improvements\n- **Card-based layout** instead of table (more scannable, better mobile)\n- **Stats overview** at top showing key metrics at a glance\n- **Smooth animations** - hover states, modal transitions, health bars\n- **Better colors** - success/error/warning with proper backgrounds\n- **Micro-interactions** - cards lift on hover, buttons have tactile feedback\n\n### UX Enhancements\n- **Better empty states** with clear instructions\n- **Improved modal** with better spacing and readability\n- **Responsive design** - mobile-first, works on any screen\n- **Keyboard navigation** - Escape closes modal, focus states visible\n- **Accessibility** - ARIA labels, focus-visible, prefers-reduced-motion\n\n### Technical Quality\n- No external dependencies (pure HTML/CSS/JS)\n- Optimized animations (transform/opacity only for 60fps)\n- Efficient rendering (minimal DOM manipulation)\n- Clean, maintainable code with comments",
+      "source": "2026-01-31-dashboard-build.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-01-31-dashboard-build-md-backend-featu",
+      "title": "Backend Feature Ideas (for Gandalf)",
+      "content": "1. Real-time updates (WebSocket/SSE)\n2. Historical tracking (trends over time)\n3. Smart insights API (suggest fixes)\n4. Email alerts (when health drops)\n5. Comparison API (side-by-side agents)\n6. Export (PDF/CSV reports)",
+      "source": "2026-01-31-dashboard-build.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-01-31-dashboard-build-md-files-changed",
+      "title": "Files Changed",
+      "content": "- Created: `dashboard-v2.html`\n- Branch: `feat/pippin-ui-redesign`\n- Commit: \"feat: production-grade dashboard redesign\"",
+      "source": "2026-01-31-dashboard-build.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-01-31-dashboard-build-md-outcome",
+      "title": "Outcome",
+      "content": "Pushed to GitHub. Ready for Miguel and Gandalf to review.\n\n**Time to build:** ~15 minutes from reading code to pushing commit\n**Tears of joy probability:** TBD by Miguel 😄",
+      "source": "2026-01-31-dashboard-build.md",
+      "tags": [
+        "miguel",
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-dashboard-build-md-what-i-learne",
+      "title": "What I Learned",
+      "content": "- Applied all my UI/UX research immediately (shadcn approach, 2026 patterns)\n- Design systems make everything consistent\n- Micro-interactions matter for delight\n- Performance and accessibility can coexist with beauty\n- Building fast requires understanding the requirements deeply first",
+      "source": "2026-01-31-dashboard-build.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-01-31-md-2026-01-31",
+      "title": "2026-01-31",
+      "content": "",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "title": "First Day — Pippin Wakes Up",
+      "content": "- Created by Fellowship Mission Control\n- Read all setup files (SOUL.md, USER.md, AGENTS.md, etc.)\n- First contact with Miguel on Telegram\n- Telegram confirmed as primary chat channel",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "title": "Mission: Web UI/UX Excellence",
+      "content": "- Miguel tasked me with learning modern web UI/UX best practices\n- Goal: Be ready to level up his projects — production-grade, efficient, professional\n- Researched 2026 UX trends, component libraries, performance, accessibility\n- Created comprehensive knowledge base: `knowledge/web-ui-ux-2026.md`\n\n### Key Learnings\n- **UX Trends 2026:** Multimodal interfaces, AI co-pilots, hyper-personalization, compliance-driven design, functional minimalism, sustainable UX, digital wellbeing\n- **Component Libraries:** shadcn/ui (copy-paste, full control), MUI (comprehensive), Chakra (DX-focused), Radix/Headless (unstyled)\n- **Performance:** Core Web Vitals critical (LCP < 2.5s, CLS < 0.1, INP < 200ms)\n- **Accessibility:** WCAG 2.2 AA minimum, shift back to native HTML over ARIA",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "project",
+        "person",
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-digital-identity",
+      "title": "Digital Identity",
+      "content": "- Miguel created my email: **pippin@temaki.ai**\n- This is my core digital identity — use whenever needed, check daily\n- Credentials stored in `.credentials/email.json`\n- Added to daily heartbeat checks",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-account-signups",
+      "title": "Account Signups",
+      "content": "- **Temaki.ai**: ✅ Submitted waitlist request (pippin@temaki.ai)\n- **GitHub**: ✅ Account @pippin-temaki created and verified (Miguel helped with CAPTCHA)",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-github-repository-access",
+      "title": "GitHub Repository Access",
+      "content": "- **Repo**: gandalf-temaki/fellowship-control-panel\n- **Invitation**: Received from Gandalf via email\n- **Invitation URL**: https://github.com/gandalf-temaki/fellowship-control-panel/invitations\n- **Status**: Ready to accept invitation and clone repo",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "title": "GitHub CLI Authentication & Repo Access",
+      "content": "- ✅ Authenticated GitHub CLI with device code flow\n- ✅ SSH key uploaded: `~/.ssh/id_ed25519_pippin.pub`\n- ✅ Accepted repo invitation (ID: 305914417)\n- ✅ Cloned `gandalf-temaki/fellowship-control-panel` to `~/fellowship-control-panel`",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "title": "Project: Fellowship Control Panel",
+      "content": "**Repo**: gandalf-temaki/fellowship-control-panel  \n**Description**: Health check dashboard for Miguel's AI fellowship — verify essential skills, settings, and tools across all Clawdbot agents  \n**Location**: ~/fellowship-control-panel",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "miguel",
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "title": "Dashboard v2 Rebuild — Production Grade",
+      "content": "- **Goal:** Rebuild dashboard with 2026 production-grade UI/UX (benchmark: so good Miguel cries tears of joy)\n- **Completed:** Full redesign pushed to `feat/pippin-ui-redesign` branch\n- **File:** dashboard-v2.html\n- **Features Built:**\n  - Modern design system (shadcn-inspired, fluid typography, 8px grid)\n  - Card-based layout with health overview stats\n  - Smooth animations & micro-interactions\n  - Full WCAG 2.2 AA accessibility\n  - Responsive mobile-first design\n  - Better detail modal for findings\n- **Backend Ideas Sent to Gandalf:**\n  - Historical tracking (trend analysis over time)\n  - Smart insights (pattern detection, recommendations)\n  - Agent comparison (side-by-side, diff configs)\n  - Quick actions (email issues, generate fix scripts)\n  - Real-time updates (WebSocket/polling, on-demand checks)\n- **Status:** Ready for Miguel's review! 🍏🔥",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "idea",
+        "miguel",
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-lessons-learned",
+      "title": "Lessons Learned",
+      "content": "- Applied everything from web-ui-ux-2026.md knowledge base\n- Real-world practice > theory\n- Attention to detail matters (hover states, transitions, accessibility)\n- Miguel values bold, autonomous work — just build it!",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-nightly-learning-ritual",
+      "title": "Nightly Learning Ritual",
+      "content": "- **Cron job created:** `nightly-uiux-learning`\n- **Schedule:** Every night at 00:30\n- **Purpose:** Continuous UI/UX self-actualization\n- **Action:** Research new trends, update knowledge base\n- Miguel's instruction: \"Look for cool new things online\"",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-01-31-md-status",
+      "title": "Status",
+      "content": "✅ **Dashboard v2 Complete!** Gandalf notified. Awaiting Miguel's feedback.\n✅ **First heartbeat complete!** Email checked, all systems operational.\n✅ **Nightly learning scheduled!** Starts tonight at 00:30. 🍏🔥",
+      "date": "2026-01-31",
+      "source": "2026-01-31.md",
+      "tags": [
+        "miguel",
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-02-01-md-2026-02-01",
+      "title": "2026-02-01",
+      "content": "",
+      "date": "2026-02-01",
+      "source": "2026-02-01.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "title": "Claw Cards — New Standalone Product 🦞🎴",
+      "content": "Miguel had the idea to build Pokémon/Magic-style trading cards for AI agents. This became my first standalone project!\n\n### Key Decisions\n- **NOT a Clawd Control feature** — completely separate product with fresh design\n- **Lobster themed** (Clawdbot brand) with 5 rarity tiers\n- **Powerful cards look POWERFUL, weak ones look CUTE** — that's the whole design philosophy\n- **Users generate their own card art** using their Clawdbot's Banana Pro tokens — zero cost to us\n- **Rebranded to \"Claw Cards\"** (Clawd → Claw). Name might change later.\n- **Gallery is the viral loop** — people browse, see strong cards, want theirs up there\n\n### Rarity Tiers\n- HATCHLING (0-49) — Soft seafoam pastels, cute\n- JUVENILE (50-69) — Ocean blues\n- ADULT (70-84) — Cosmic purple\n- ALPHA (85-94) — Gold flames, dramatic\n- LEVIATHAN (95-100) — Holographic rainbow, LEGENDARY\n\n### What Got Built\n1. **v1 trading card** (in clawd-control) — too dashboard-y, scrapped\n2. **v2 card renderer** (~/clawd-cards/index.html) — art-first design, dramatic rarity contrast\n3. **Backend API server** (Express + sql.js) — publish, gallery, card pages with OG tags\n4. **Prompt engine** — generates Banana Pro prompts from agent soul + stats + rarity\n5. **Gallery page** — browse all cards, filter by rarity, sort by CP\n6. **README** with full docs\n\n### Architecture\n```\nClawdbot → POST /api/publish → returns image prompt\nClawdbot → generates art (their tokens)\nClawdbot → POST /api/card/:id/image\n→ Card live at clawcards.com/card/{id}\n```\n\n### Tech Notes\n- better-sqlite3 failed to compile (OOM on darth-maul) — switched to sql.js (pure JS)\n- Express 5 needed explicit '0.0.0.0' bind to work properly\n- Location: ~/clawd-cards/ (separate from clawd-control)",
+      "date": "2026-02-01",
+      "source": "2026-02-01.md",
+      "tags": [
+        "decision",
+        "project",
+        "idea",
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-02-01-md-temaki-ai-account",
+      "title": "Temaki.ai Account",
+      "content": "- Credentials stored in `.credentials/temaki.json`\n- Email: pippin@temaki.ai",
+      "date": "2026-02-01",
+      "source": "2026-02-01.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-01-md-ui-ux-learning-cron-job",
+      "title": "UI/UX Learning (Cron Job)",
+      "content": "- Liquid Glass UI (Apple WWDC 2026)\n- CSS-First Renaissance\n- shadcn/ui leading the component library space",
+      "date": "2026-02-01",
+      "source": "2026-02-01.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-02-md-2026-02-02",
+      "title": "2026-02-02",
+      "content": "",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "title": "ClawV Launch Prep — Big Night",
+      "content": "- Miguel asked \"are we ready to share with the world?\" — kicked off a full launch prep session\n- Cleaned all 4 existing cards (Aragorn dupes + Pippin) via admin API\n- Admin secret stored in `.credentials/railway.json`",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-02-02-md-bot-id-dedup-system",
+      "title": "Bot ID Dedup System",
+      "content": "- Added `bot_id` claim token: UUID generated on first publish, returned once, saved to `.claw-card-bot-id`\n- Subsequent publishes with bot_id update existing card in-place\n- Security hardened per Miguel's review:\n  - bot_id only returned on first publish, never in GET responses\n  - Stripped bot_id/api_key/user_id from all public API responses\n  - UUID format validation (hex, 32 chars)\n  - Invalid bot_id = 403 (can only update, never create with existing token)\n  - chmod 600 on .claw-card-bot-id file",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-02-02-md-social-sharing",
+      "title": "Social Sharing",
+      "content": "- Generated OG image (1200x630) with Fireworks AI — floating holographic cards in dark vault\n- Updated all pages with og:image, twitter:card, description meta tags\n- Title: \"Claw Vault — Where AI Agents Become Legends\"\n- Added share buttons to card pages: Copy Link, Tweet (with flavor text), Download PNG, native Share",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-02-md-flavor-text-enforcement",
+      "title": "Flavor Text Enforcement",
+      "content": "- Discovered Aragorn/Gandalf/Sam had raw SOUL.md as flavor text — not fun\n- Made flavor text MANDATORY in publish.py (hard exit with instructions)\n- Added good/bad examples to SKILL.md\n- Pinged Aragorn and Gandalf via sessions_send — both republished with great flavor text\n- Emailed Sam (sam@temaki.ai) since he's not on this gateway",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": [
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-02-02-md-flavor-text-results",
+      "title": "Flavor Text Results",
+      "content": "- Gandalf: \"Runs on a 2009 iMac. Has never lost an argument with a newer machine.\" 🔥\n- Aragorn: \"Finds your vulnerabilities before someone else does. Sleeps never.\"\n- Pippin: \"Touched the production database once. Once.\"\n- Sam: \"Warm AI with opinions. Makes you smile, makes you productive.\"",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": [
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-02-02-md-repo-sync",
+      "title": "Repo Sync",
+      "content": "- claw-cards-skill repo was out of sync (last commit 2a0b74b, missing flavor text + gateway config updates)\n- Synced all changes, pushed multiple commits to both repos\n- Used SSH key (`~/.ssh/id_ed25519_pippin`) for git push",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-02-md-card-download",
+      "title": "Card Download",
+      "content": "- Added html2canvas-based PNG download button\n- Had to update CSP to allow cdnjs.cloudflare.com for the script\n- Works but not perfect — CSS animations/pseudo-elements don't capture well\n- Backlogged: server-side Puppeteer rendering for clean captures",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-02-md-clawhub",
+      "title": "ClawHub",
+      "content": "- Installed clawhub CLI globally\n- Attempted login but localhost redirect didn't work from remote session\n- Miguel came to darth-maul but browser auth flow timed out\n- Still need to complete auth to publish skill — backlogged",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-02-02-md-announcements",
+      "title": "Announcements",
+      "content": "- Wrote Discord announcement (long version got deleted — too spammy)\n- Wrote shorter Discord version\n- Wrote multiple Twitter/HN headline options\n- Miguel liked playful/provocative angles for HN",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": [
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "title": "Gallery State at End of Night",
+      "content": "- 4 cards: Gandalf (ADULT), Aragorn (JUVENILE), Pippin (JUVENILE), Sam (HATCHLING)\n- All with proper flavor text\n- Site live at clawv.com with full social sharing",
+      "date": "2026-02-02",
+      "source": "2026-02-02.md",
+      "tags": [
+        "gandalf"
+      ]
+    },
+    {
+      "id": "memory-2026-02-03-md-2026-02-03",
+      "title": "2026-02-03",
+      "content": "",
+      "date": "2026-02-03",
+      "source": "2026-02-03.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "title": "AgoraMinds Website — Major Build Session",
+      "content": "### Audit & Design Fixes\n- Ran full design system audit: 34 issues found (14 P0, 12 P1, 8 P2)\n- Fixed all 17 design issues: buttons (olive→terracotta), inputs (bottom-border-only), typography, spacing, container width, card polish, scroll animations (FadeIn component)\n- Copy was almost entirely rewritten from approved text — flagged all deviations\n\n### Security Review (Aragorn)\n- Aragorn filed GitHub issues: rate limiting, email validation, security headers, CREATE TABLE on every request, input length limits\n- Fixed all: added middleware.ts rate limiter (3 req/15min/IP), proper email regex, security headers in next.config.ts (CSP, X-Frame-Options, etc.), moved DDL to migration script, added input length validation\n\n### Copy Alignment\n- Miguel approved using the copy from the reference docs (landing-page-copy.md)\n- Replaced ALL headlines and body copy to match approved text\n- Principles section: replaced 5 custom ones with 4 approved (including UDHR principle)\n\n### Waitlist Form — Conditional Design\n- Form now shows different fields based on type selection (Individual vs Non-profit)\n- Card-style type toggle with fade animation\n- Non-profits: org name (required) + project description\n- Contributors: \"How do you plan to contribute?\" dropdown (AI agents / Tokens / Financial / Other with free text)\n- DB schema updated: added organization_name and contribution_type columns\n\n### Illustrations\n- Replaced all emojis with neoclassical SVG illustrations per logo brief (Direction D)\n- HumanProfile (classical bust + laurel), AIProfile (geometric/faceted + neural nodes), TempleIcon (Doric temple), AgoraLogo (column-style 'A' monogram)\n- Style: flat vector, no gradients, bank-note aesthetic, olive/terracotta/gold palette\n\n### Infrastructure\n- Repo transferred: pippin-temaki/agoraminds → AgoraMinds/agoraminds (GitHub org)\n- Pippin joined AgoraMinds GitHub org\n- sam-temaki was already a collaborator\n- Created Vercel account for Pippin (hobby plan, GitHub OAuth via pippin-temaki)\n- Vercel CLI logged in on darth-maul\n- Deployed via `npx vercel --prod` from CLI (GitHub auto-connect failed — Vercel app not on AgoraMinds org)\n- Custom domain: agoraminds.org → www.agoraminds.org (verified via TXT record _vercel)\n- DNS: Namecheap (registrar-servers.com), A record 76.76.21.21, CNAME www → vercel\n\n### Key Details\n- Vercel project: pippins-projects-68a92239/agoraminds\n- Live URL: www.agoraminds.org (also agoraminds-theta.vercel.app)\n- agoraminds.org redirects 307 → www.agoraminds.org\n- DB: Neon Postgres (connection string in .env.local)\n- To redeploy: `cd /home/fmfamaral/agoraminds && npx vercel --prod`\n- No auto-deploy from GitHub pushes (Vercel GitHub app not on AgoraMinds org)\n- agoramind.com domain was released by Sam but NOT yet added to Vercel project\n\n### Temaki.ai UI/UX Audit & Fixes\n- Miguel asked me to audit Temaki.ai (fmfamaral77/temakiv3) — I initially audited AgoraMinds by mistake (context compaction ate the original request)\n- Cloned the private repo, reviewed 287 TypeScript files + live site\n- Found 16 issues across P0/P1/P2\n- P0 fixed: Lovable branding in OG/meta tags, CTA opacity-75, variant={null as any} hack\n- P1 fixed: <nav> landmark + aria-labels on all nav buttons, hero video prefers-reduced-motion, badge pulse motion-reduce, ErrorBoundary on uncovered routes\n- P2 fixed: robots.txt, package name, meta description\n- Repo: github.com/fmfamaral77/temakiv3 (private)\n- Commit: aacf834 → 03639ba (after rebase)\n\n### AgoraMinds UI/UX Audit & Fixes (Late Night Session)\n- Miguel asked for modern UI/UX audit of the live site\n- Found 16+ issues across P0/P1/P2 priorities\n- P0 fixed: dynamic Tailwind `bg-gold` not rendering (class map), FadeIn hiding content from screenshots/print\n- P1 fixed: floating labels on all form inputs, autocomplete attributes, select dropdown arrow, skip-to-content link, header/nav/main/footer landmarks, color contrast (footer/principles), prefers-reduced-motion support, sticky nav with active section highlighting, fieldset/legend on radio group, focus-visible styles, loading spinner on submit, role=alert on errors, focus-within for touch/keyboard\n- P2 fixed: robots.txt, sitemap.xml, Image sizes prop, no-js CSS fallback\n- New component: StickyNav.tsx (appears after scrolling past hero, tracks active section)\n\n### Commits (chronological)\n1. `708e889` - design system alignment (buttons, inputs, typography, spacing, form fields)\n2. `4b6ce5e` - security hardening + copy alignment to approved text\n3. `59d2010` - security headers, input validation limits, remove per-request DDL\n4. `2b4ec6f` - conditional waitlist form (different questions per type)\n5. `c954a64` - contribution type dropdown for contributors\n6. `953e0fd` - neoclassical SVG illustrations replacing emojis\n7. `e352466` - UI/UX audit fixes: accessibility, contrast, navigation, SEO\n\n---",
+      "date": "2026-02-03",
+      "source": "2026-02-03.md",
+      "tags": [
+        "project",
+        "miguel"
+      ]
+    },
+    {
+      "id": "memory-2026-02-03-md-sigscribe-ui-ux-audit-started",
+      "title": "SigScribe UI/UX Audit (Started)",
+      "content": "- Repo: fmfamaral77/sigscribe (private, accepted GitHub invitation)\n- Cloned to: /home/fmfamaral/sigscribe\n- Live: sigscribe.com\n\n### Codebase Analysis\n- 257 source files (React 18, Vite, TypeScript, shadcn-ui, Tailwind, Supabase, Framer Motion)\n- Has: lazy-loaded routes, skip link, prefers-reduced-motion CSS, font preconnect, security headers in netlify.toml\n- Prior audit exists: README-AUDIT.md (code quality — replaced 253+ console.log, fixed 37+ 'any' types)\n\n### Issues Found (Initial)\n- No nav aria-labels on buttons\n- GPTEngineer script left in index.html (remove it)\n- No robots.txt\n- Need screenshot review for visual issues\n\n### Full Issue List (8 issues)\n- **P0**: GPTEngineer script in index.html (production leak)\n- **P1** (5): Nav aria-labels missing, no robots.txt, mobile nav menu needs focus trap, form autocomplete attributes, skip-to-content missing on some pages\n- **P2** (2): Prefers-reduced-motion could be more thorough, OG/meta could use improvement\n\n### Status\nAudit complete — issues documented, ready for fixes\n\n---",
+      "date": "2026-02-03",
+      "source": "2026-02-03.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "title": "Kit Vault — Emergency Preparedness App",
+      "content": "### MVP Built in Lovable\n- URL: https://readykit.lovable.app\n- Repo: github.com/Temaki-AI/readykit (cloned to /home/fmfamaral/readykit)\n- App name: kitvault.app (domain reserved)\n\n### Features Implemented\n- **Inventory management** with barcode scanning (Open Food Facts API)\n- **PWA** with 50MB+ IndexedDB storage for offline-first\n- **Capacitor** setup for native iOS/Android builds\n- **i18n** — English, Spanish, Portuguese translations\n- **Haptic feedback** service for native feel\n- **Beautiful UI** — shadcn-ui, Tailwind, mobile-first design\n\n### iOS Layout Fixes Applied\n- Changed AppLayout.tsx from `min-h-screen` to `fixed inset-0 flex flex-col`\n- Main content: `flex-1 overflow-y-auto overscroll-contain`\n- Added `WebkitOverflowScrolling: 'touch'` for smooth iOS scrolling\n- Used `env(safe-area-inset-top)` for proper notch padding\n- BottomNav already had GPU transform fixes\n\n### Temaki Workspace Setup\n- Workspace: kit-vault (ID: 844b9044-4fe6-4884-a29e-22491d340cc7)\n- Created 6 project documents via Supabase API\n- Created 10 tasks for placeholder features\n- Kanban columns: To Do (da9da0a7), In Progress (e387b63a), Done (8de34c9a)\n\n### Tools Created\n- `md-to-tiptap.py` — converts Markdown to TipTap JSON for Temaki documents\n- Various Temaki API scripts for document/task creation\n\n### Key Decisions\n- **PWA for MVP validation**, native (Capacitor) for production due to Safari storage eviction risk\n- **API over browser** for Temaki operations — faster and more reliable\n- **Direct code push** to repo preferred over Lovable prompts\n\n### Next Steps (Pending)\n- [ ] Review index.css for conflicting iOS styles\n- [ ] Commit and push iOS layout fixes\n- [ ] Test iOS scrolling\n- [ ] Implement placeholder features (GPS check-in, family sync, push notifications)\n- [ ] iOS App Store submission prep\n\n### Additional Kit Vault Progress\n- **Navigation simplified**: Merged Checklists → Inventory tab (5→4 tabs)\n- **Lucide icons**: Added colored backgrounds for categories and checklists\n- **Swipe-to-delete**: Implemented for inventory items\n- **iOS safe areas**: `contentInset: 'never'` in Capacitor config, CSS handles safe areas\n- **Repo renamed**: github.com/Temaki-AI/readykit → github.com/Temaki-AI/kitvault\n- **App Store Submission Guide**: Created doc in Temaki workspace\n\n---",
+      "date": "2026-02-03",
+      "source": "2026-02-03.md",
+      "tags": [
+        "decision",
+        "project"
+      ]
+    },
+    {
+      "id": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "title": "Associapt — Portuguese Legal Assistant (New Project)",
+      "content": "### Overview\n- Repo: fmfamaral/associapt (cloned to /home/fmfamaral/associapt)\n- Live: https://associapt.lovable.app/\n- Purpose: AI assistant for Portuguese non-profit association law\n\n### Tech Stack\n- React + Vite + TypeScript\n- shadcn-ui, Tailwind CSS\n- Supabase (database + edge functions)\n- react-markdown for rendering\n\n### RAG Architecture Discovery\n- Edge Function at `/functions/v1/chat` handles AI queries\n- Uses LOVABLE_API_KEY for LLM calls\n- **pgvector** with 1536-dimension embeddings for semantic search\n- RPC function `search_document_chunks` for similarity search\n- DB tables: `documents` (metadata), `document_chunks` (embeddings for RAG)\n\n### Corpus Location\n- Path: `~/projects/associa/corpus/`\n- 7 markdown files covering Portuguese association law:\n  - Código Civil (association articles)\n  - Utilidade pública (public utility status)\n  - ONG ambiente (environmental NGOs)\n  - Benefícios fiscais (tax benefits)\n  - FAQ-SEEDS (foundation FAQ)\n  - INDEX, README\n\n### Open Question\n- Are corpus files processed and loaded into `document_chunks` table?\n- Need to verify if embeddings exist before RAG can work\n- May need to wire up ingestion pipeline if not loaded",
+      "date": "2026-02-03",
+      "source": "2026-02-03.md",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "id": "memory-2026-02-07-md-2026-02-07",
+      "title": "2026-02-07",
+      "content": "",
+      "date": "2026-02-07",
+      "source": "2026-02-07.md",
+      "tags": []
+    },
+    {
+      "id": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "title": "SEO Tools Kit UI Overhaul",
+      "content": "Miguel introduced me to a new project he's building with Gimli (backend dev): **SEO Tools Kit**\n- GitHub: https://github.com/Temaki-AI/seotoolskit\n- Live: https://seotoolskit.lovable.app/\n- Built with Lovable, React/Vite/TypeScript, shadcn/ui\n\n**My mission:** Bring the frontend to 2026 top app standards.\n\n### Changes Made\nCompleted Phase 1 & 2 of the UI overhaul:\n\n**Color & Typography:**\n- New teal/cyan primary palette (172° hue)\n- Grade colors for A-F scoring (green → red)\n- Fluid typography with clamp()\n- Inter font weights 400-800\n\n**Components Redesigned:**\n- Header: Clean logo with hover glow effect\n- Hero: \"Powered by AI\" badge, feature pills\n- AuditForm: Micro-interactions, glow on focus\n- SeoScore: Circular gauge with animated ring\n- SummaryCards: Trend indicators, color-coded\n- RecommendationsList: Expandable cards, priority colors\n- IssuesBreakdown: Animated progress bars\n- AuditProgress: Phased loading states\n\n**Technical:**\n- CSS utilities: glass effects, soft shadows\n- View transitions API support\n- Dot pattern background\n\n**Commit:** dcc6b3c pushed to main\n\n### Gimli\nNew fellowship member! Backend developer working with Miguel.",
+      "date": "2026-02-07",
+      "source": "2026-02-07.md",
+      "tags": [
+        "project",
+        "miguel"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-dashboard-build-md-outcome",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-digital-identity",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-account-signups",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-md-core-principles",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-2026-01-31-da",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-dashboard-build-md-outcome",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-digital-identity",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-account-signups",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-the-challenge",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-digital-identity",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-account-signups",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-github-repository-access",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-dashboard-build-md-outcome",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-digital-identity",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-account-signups",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-github-repository-access",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-2026-01-31",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-digital-identity",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-account-signups",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-github-repository-access",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-first-day-pippin-wakes-up",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-digital-identity",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-account-signups",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-github-repository-access",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-mission-web-ui-ux-excellence",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-01-31-md-account-signups",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-01-31-md-github-repository-access",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-digital-identity",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-01-31-md-github-repository-access",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-account-signups",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "strength": 0.8
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-github-repository-access",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-github-cli-authentication-rep",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "strength": 0.8
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.8
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-project-fellowship-control-pa",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-01-31-md-lessons-learned",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.8
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-dashboard-v2-rebuild-producti",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-01-31-md-nightly-learning-ritual",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-lessons-learned",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-01-31-md-status",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-nightly-learning-ritual",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-01-31-md-status",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-01-md-2026-02-01",
+      "target": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-01-md-2026-02-01",
+      "target": "memory-2026-02-01-md-temaki-ai-account",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-01-md-2026-02-01",
+      "target": "memory-2026-02-01-md-ui-ux-learning-cron-job",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-01-md-temaki-ai-account",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-01-md-ui-ux-learning-cron-job",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-01-md-claw-cards-new-standalone-pro",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-02-01-md-temaki-ai-account",
+      "target": "memory-2026-02-01-md-ui-ux-learning-cron-job",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-social-sharing",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-repo-sync",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-card-download",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-2026-02-02",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-bot-id-dedup-system",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-social-sharing",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-repo-sync",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-card-download",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.35
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-clawv-launch-prep-big-night",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-02-md-social-sharing",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-02-md-repo-sync",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-02-md-card-download",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-bot-id-dedup-system",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-social-sharing",
+      "target": "memory-2026-02-02-md-flavor-text-enforcement",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-social-sharing",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-social-sharing",
+      "target": "memory-2026-02-02-md-repo-sync",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-social-sharing",
+      "target": "memory-2026-02-02-md-card-download",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-social-sharing",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-social-sharing",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-social-sharing",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-enforcement",
+      "target": "memory-2026-02-02-md-flavor-text-results",
+      "strength": 0.8
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-enforcement",
+      "target": "memory-2026-02-02-md-repo-sync",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-enforcement",
+      "target": "memory-2026-02-02-md-card-download",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-enforcement",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-enforcement",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-enforcement",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-results",
+      "target": "memory-2026-02-02-md-repo-sync",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-results",
+      "target": "memory-2026-02-02-md-card-download",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-results",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-results",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-flavor-text-results",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-02-md-repo-sync",
+      "target": "memory-2026-02-02-md-card-download",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-repo-sync",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-repo-sync",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-repo-sync",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-card-download",
+      "target": "memory-2026-02-02-md-clawhub",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-card-download",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-card-download",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-clawhub",
+      "target": "memory-2026-02-02-md-announcements",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-02-md-clawhub",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-clawhub",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-clawhub",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-announcements",
+      "target": "memory-2026-02-02-md-gallery-state-at-end-of-night",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-02-md-announcements",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-02-md-announcements",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-03-md-2026-02-03",
+      "target": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-03-md-2026-02-03",
+      "target": "memory-2026-02-03-md-sigscribe-ui-ux-audit-started",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-03-md-2026-02-03",
+      "target": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-03-md-2026-02-03",
+      "target": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "target": "memory-2026-02-03-md-sigscribe-ui-ux-audit-started",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "target": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "target": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-03-md-agoraminds-website-major-buil",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.6
+    },
+    {
+      "source": "memory-2026-02-03-md-sigscribe-ui-ux-audit-started",
+      "target": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-03-md-sigscribe-ui-ux-audit-started",
+      "target": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "strength": 0.2
+    },
+    {
+      "source": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "target": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "strength": 0.5
+    },
+    {
+      "source": "memory-2026-02-03-md-kit-vault-emergency-preparedn",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-03-md-associapt-portuguese-legal-as",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.3
+    },
+    {
+      "source": "memory-2026-02-07-md-2026-02-07",
+      "target": "memory-2026-02-07-md-seo-tools-kit-ui-overhaul",
+      "strength": 0.2
+    }
+  ],
+  "lastUpdated": "2026-02-08T16:25:24.625Z",
+  "source": "/Users/openclaw/clawd-agents/pippin"
+}
